@@ -10,9 +10,7 @@ export default function Discover() {
 
   return (
     <div className="xl:border-b-2 xl:border-gray-200 pb-6">
-      <p className="text-gray-500 font-semibold m-3 mt-4 block">
-        Popular Topics
-      </p>
+      <p className="text-white font-semibold m-3 mt-4 block">Popular Topics</p>
       <div className="flex gap-3 flex-wrap">
         {topics?.map((item) => (
           <Link href={`/?topic=${item.name}`} key={item.name}>

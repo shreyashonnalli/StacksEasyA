@@ -3,6 +3,8 @@
 import ContentCard from "./components/ContentCard";
 import NavBar from "./components/NavBar";
 import SideBar from "./components/SideBar";
+import { BluePost } from "./images/feeds/all-posts";
+import { content } from "./images/feeds";
 
 import React, { useState, useEffect, useContext } from "react";
 import { AppConfig, UserSession } from "@stacks/connect";
@@ -13,7 +15,7 @@ import { AppConfig, UserSession } from "@stacks/connect";
 // };
 // const [userData, setUserData] = useState({});
 
-export default function Home({ content }) {
+export default function Home() {
 	const [userData, setUserData] = useState({});
 	const appConfig = new AppConfig();
 	const userSession = new UserSession({ appConfig });
