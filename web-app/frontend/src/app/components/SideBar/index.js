@@ -9,7 +9,7 @@ export default function SideBar() {
 
   return (
     <div>
-      <div className="md:w-55 w-40 flex flex-col justify-start mb-10 border-r-2 border-grey-200  p-3">
+      <div className="md:w-52 w-40 flex flex-col justify-start mb-10 border-r-2 border-grey-200 bg-zinc-900  p-3">
         <div className="xl:border-b-2 border-gray-200">
           <Link href="/">
             <button className="bg-white text-lg text-[#F51997] border-[1px] border-[#F51997] font-semibold px-6 py-3 rounded-md outline-none hover:bg-gray-800 hover:transition-all 10s hover:text-white hover:border-white transition-colors 5s">

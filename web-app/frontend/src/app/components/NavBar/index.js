@@ -4,7 +4,7 @@ import Logo from "../../images/logo.png";
 
 export default function NavBar() {
   return (
-    <div className="w-full flex justify-between-items-center border b-2 border-gray-200 py-2 px-4">
+    <div className="w-full flex justify-between-items-center border b-2 border-gray-200  bg-zinc-900 py-2 px-4">
       <Link href="/">
         <div>
           <Image
