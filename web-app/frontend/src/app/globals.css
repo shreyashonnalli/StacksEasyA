@@ -25,3 +25,32 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.square {
+  background-color: #f4f4f430;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.text-placeholder {
+  text-align: center;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #ffffff; /* Customize the text color */
+}
