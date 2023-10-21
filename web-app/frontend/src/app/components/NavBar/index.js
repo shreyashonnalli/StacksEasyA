@@ -11,7 +11,7 @@ export default function NavBar() {
             className="cursor-pointer"
             src={Logo}
             alt="Logo"
-            Layout="responsive"
+            layout="responsive"
             height={50}
             width={50}
           />
