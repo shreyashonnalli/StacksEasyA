@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../globals.css";
 import NavBar from "../components/NavBar";
-import SideBar from "../components/SideBar";
 
 export default function NFTMarket() {
 	const emptyItems = new Array(100).fill(null);
