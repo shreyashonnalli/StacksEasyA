@@ -50,7 +50,6 @@ export default function Home() {
 						) : (
 							<text>No results</text>
 						)}
-						<h1 className="mt-8 text-4xl text-center">Lagoon</h1>
 						<p className="mt-4 text-center">Decentralized lending and borrowing with sBTC.</p>
 					</div>
 				</div>
