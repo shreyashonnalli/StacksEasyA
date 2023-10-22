@@ -11,8 +11,9 @@ import {
 } from "sbtc";
 import { bytesToHex, hexToBytes } from "@noble/hashes/utils";
 import * as btc from "@scure/btc-signer";
+import { UserContext } from "@/app/UserContext";
 
-import { UserContext } from "src/UserContext.js";
+//import { UserContext } from "src/UserContext.js";
 
 export default function TransferForm() {
 	const { userData } = useContext(UserContext);
