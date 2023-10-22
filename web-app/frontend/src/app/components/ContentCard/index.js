@@ -6,10 +6,12 @@ import {
   BsFillPauseFill,
   BsHeart,
 } from "react-icons/bs";
+import HeartIcon from "../LikeIcon";
 
 const ContentCard = ({ post }) => {
   const postDimensions = { width: 200, height: 100 };
   const iconDimensions = { width: 1, height: 1 };
+
   return (
     <div className="flex flex-col border-b-2 border-gray-200 pb-6 bg-[rgba(255,255,255,0.1)] rounded-3xl">
       <div className="flex gap-4 relative justify-center align-baseline">
@@ -50,6 +52,10 @@ const ContentCard = ({ post }) => {
               objectFit: "contain",
             }}
           ></Image>
+          <div className="ml-[525px] mt-2">
+            {/* <BsHeart className="ml-[550px] mt-2" color="white" size="40px" /> */}
+            <HeartIcon className="ml-[2000px] mt-2" />
+          </div>
         </div>
       </div>
     </div>
